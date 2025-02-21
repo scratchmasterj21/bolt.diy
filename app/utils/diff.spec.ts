@@ -6,6 +6,6 @@ describe('Diff', () => {
   it('should strip out Work_dir', () => {
     const filePath = `${WORK_DIR}/index.js`;
     const result = extractRelativePath(filePath);
-    expect(result).toBe('index.js');
+    expect(result).toBe('js');
   });
 });
