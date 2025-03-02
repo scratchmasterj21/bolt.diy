@@ -6,5 +6,6 @@ pages_build_output_dir = "./build/client"
 send_metrics = false
 
 [build]
-command = "npm install -g pnpm@9.4.0 && pnpm install && pnpm run build"
+command = "asdf install && pnpm install --frozen-lockfile && pnpm run build"
 directory = "build/client"
+
